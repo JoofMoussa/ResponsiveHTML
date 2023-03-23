@@ -113,15 +113,11 @@ a{
 	color: white;
 }
 .lorem{
-position: absolute;
-/*width: 422px;
-height: 78px;*/
-/*left: 112px;
-top: 282px;*/
+
 font-family: 'Inter';
 font-style: normal;
-font-weight: 50;
-line-height: 39px;
+font-weight: bolder;
+/*line-height: 39px;*/
 letter-spacing: -0.333333px;
 
 color: #FFFFFF;
