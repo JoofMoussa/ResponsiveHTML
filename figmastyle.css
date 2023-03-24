@@ -12,18 +12,22 @@ button{
 	min-width: 30px;
 	width: 150px;
 }
+li{
+	font-size: 20px;
+}
 .btn-dark{
 	background-color: black;
 	color: white;
 }
 .form-color{
-	background-color: ivory;
+	background-color: lightgrey;
 }
 a{
 	color: white;
 }
 .text-cover{
 	color: #74C69D;
+	font-weight: bolder;
 }
 .mtop40{
 	margin-top: 20px;
@@ -31,6 +35,7 @@ a{
 .mr40{
 	margin-right: 10px;
 }
+
 .startIcon{
 	position: absolute;
 	background: url('images/figma2.png');
@@ -44,30 +49,33 @@ a{
 /*	padding: 0.1em;*/
 }
 .p100{
-	padding: 0 155px;
+	padding: 0 100px;
 }
 .pl2{
-	padding: 1.7em;
+	padding: 2.5em;
 }
 
 .pl1{
 	padding: 0 5px;
 }
 .pl100{
-	padding: 0 100px;
+	padding: 0 170px;
 }
 .centrerItem{
 	align-items: center;
 }
 .title{
 	color: white;
-	font-size: 30px;
+	font-size: 32px;
+	padding-top: 20px;
+	font-weight: bolder;
+
 }
 .pl70{
 	padding-left: 70px;
 }
 .pl100{
-	padding-left: 70px;
+	padding-left: 90px;
 }
 .pt100{
 	padding-top: 120px;
@@ -126,9 +134,12 @@ color: #FFFFFF;
 footer{
 		background-color: #74C69D;
 /*		width: 100%;*/
-		height: 120px;
+		height: 170px;
 
 }
 .pt30{
 	padding-top: 18px;
+}
+.opaque{
+	opacity : 0.6;
 }

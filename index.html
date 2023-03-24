@@ -15,59 +15,46 @@
 
 <body>
 
-<header>
-<nav role="navigation" class="navbar navbar-principale">
 
-	
-	<div class="container">
-		<!-- DEBUT MENU NAVIGATION -->
+<nav role="navigation" class="navbar">
+<!-- <header> -->
+	<div class="container-fluid navbar-principale">
 		<div class="row">
-			<div class="col-lg-12">
 
-				<!-- TOGGLE -->
-			    <div class="navbar-header">
-			    		<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle pull-right" style="padding-left: 130px;">
-							<span class="sr-only">Toggle Navigation</span>
-							<span class="icon-bar text-light">___</span>
-							<span class="icon-bar text-light">___</span>
-							<span class="icon-bar text-light">___</span>
-						</button>
-						
-				<!-- FIN TOGGLE -->
+			<div class="col-lg-1"></div>
 
-				<!-- TITRE MENU -->
-						<div class="pull-left">
+			<div class="col-lg-10">
+			    	<div class="navbar-header">
 							<span class="startIcon">
-								<h1><a href="index.html" class="navbar-brand title pl70">Start</a></h1>
+							<span class="brand"><a href="index.html" class="navbar-brand title p100">Start</a></span>
 							</span>
-						</div>
+							
+						
+				    		<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle pull-right" style="padding-left: 130px;">
+								<span class="sr-only">Toggle Navigation</span>
+								<span class="icon-bar text-light"><b>___</b></span>
+								<span class="icon-bar text-light"><b>___</b></span>
+								<span class="icon-bar text-light"><b>___</b></span>
+							</button>
+					</div>
+							
+					<div id="navbarCollapse" class="collapse navbar-collapse">
 
-				</div>
-				<!-- FIN TITRE MENU -->
-
-				<br>
-		      
-		       	
-				<!--  MENU -->
-				<div id="navbarCollapse" class="collapse navbar-collapse pull-right">
-
-								<ul class="nav navbar-nav flex">
+								<ul class="nav navbar-nav flex pull-right">
 									<li class="active flex"><a href="index.html">Home</a></li>
 									<li class="flex brand"><a href="portfolio.html">Portfolio</a></li>
 									<li class="flex brand"><a href="services.html">Services</a></h1></li>
 									<li class="flex brand"><a href="contact.html">Contact</a></li>
 								</ul>			
-				</div>
-				<!-- FIN MENU -->
-
+					</div>				
 			</div>
+			<br>     
 		</div>
-		<!-- FIN MENU NAVIGATION -->
-		
+<!-- </header> -->
 
-		<!-- MESSAGE ACCEUIL -->
-		<div class="row">
-				<div class="col-lg-7 pull-right">
+<div class="row navbar-principale pt50">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-6 pull-right">
 					<img src="images/figma1.png" class="img-responsive">
 				</div>
 
@@ -75,57 +62,54 @@
 
 							<h4 class="text-light">WELCOME</h4>
 							<h3 class="lorem">Lorem ipsum dolor sit amet <br>consectetur</h3>
-							<p class="text-light">
+							<p class="text-light opaque">
 								    Lorem ipsum, dolor sit amet consectetur adipisicing
 									elit. Suscipit nemo hic quos, ab, dolor aperiam nobis
 									cum est eos error ipsum, voluptate culpa nesciunt
 									delectus iste?
 							</p>
-							<p>
+							<p class="pt30">
 								<button class="btn btn-lg btn-default">Explore</button>
 							</p>
 						
 				</div>	
 		</div>
-		<!-- FIN MESSAGE ACCEUIL -->
-
-
-					
-	</div> 
+	</div>
 </nav>
-</header>
 
 
 
-	<div class="container-fluid">
+
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="centrer">
 					<p class="text-cover">P A R T N E R S</p>
-					<p><b><h1>Lorem Ipsum Dolor</h1></b></p>
-					<p><h6>Lorem ipsum, dolor sit amet consectetur</h6></p>
-					<p><h6>adipisicing elit.</h6></p>
+					<p><h1>Lorem Ipsum Dolor</h1></p>
+					<p><h4>Lorem ipsum, dolor sit amet consectetur</h4></p>
+					<p><h4>adipisicing elit.</h4></p>
 				</div>	
 			</div>
 		</div>
 	</div>
 
+<style type="text/css">
+	.imgIcon { max-width: 350px; min-width: 150px; width: 200px; }
+</style>
 
 
-
-			 <!-- SECTION 2 -->
-	<div class="container-fluid">
-			<div class="row flex pt100">
-					<div class="col-lg-2 p100" > <img src="images/google.png" class="img-responsive"> </div>
-					<div class="col-lg-2 p100" > <img src="images/micro.png" class="img-responsive"> </div>
-					<div class="col-lg-2 p100" > <img src="images/facebook.png" class="img-responsive"> </div>
-					<div class="col-lg-2 p100" > <img src="images/airb.png" class="img-responsive"> </div>
-					<div class="col-lg-2 p100" > <img src="images/spotify.png" class="img-responsive"> </div>
+<!-- SECTION 2 -->
+<div class="container-fluid pt50">
+			<div class="row">
+					<div class="col-lg-2 pl100"> <img src="images/google.png" class="imgIcon img-responsive"> </div>
+					<div class="col-lg-2 pl100"> <img src="images/micro.png" class="imgIcon img-responsive"> </div>
+					<div class="col-lg-2 pl100"> <img src="images/airb.png" class="imgIcon img-responsive"> </div>
+					<div class="col-lg-2 pl100"> <img src="images/facebook.png" class="imgIcon img-responsive"> </div>
+					<div class="col-lg-2 pl100"> <img src="images/spotify.png" class="imgIcon img-responsive"> </div>
 			</div>
-	</div>
+</div>
 
 
-	<div class="container-fluid pt100">
+	<div class="container-fluid pt50">
 			<div class="row centrer">
 				<button class="btn btn-inverse">Learn More</button>
 			</div>
@@ -135,16 +119,18 @@
 			<div class="row">
 				<div class="col-lg-1"></div>
 				<div class="col-lg-6"><img src="images/leftSC.png" class="img-responsive"></div>
-				<div class="col-lg-4 pt100">
-					<p><h3><b>Lorem ipsum, dolor sit amet </b></h3></p>
-					<p><h3><b>consectetur</b></h3></p>
-					<p>
+				<div class="col-lg-4 pt50">
+					<p><h1><b>Lorem ipsum, dolor sit amet consectetur</b></h1></p>
+					<p class="opaque">
 					    Lorem ipsum, dolor sit amet consectetur adipisicing
 						elit. Suscipit nemo hic quos, ab, dolor aperiam nobis
 						cum est eos error ipsum, voluptate culpa nesciunt
 						delectus iste?
 				</p>
-				<button class="btn btn-inverse btn-lg">Learn More</button>
+				<div class="pt50">
+					<button class="btn btn-inverse btn-lg">Learn More</button>
+				</div>
+				
 				</div>
 				<div class="col-lg-1"></div>
 			</div>
@@ -156,15 +142,18 @@
 					<img src="images/rightSC.png" class="img-responsive">
 				</div>
 				<div class="col-lg-4 pt100 pull-left">
-					<p><h3><b>Lorem ipsum, dolor sit amet </b></h3></p>
-					<p><h3><b>consectetur</b></h3></p>
-					<p>
+					<p><h2><b>Lorem ipsum, dolor sit </b></h2></p>
+					<p><h2><b>amet consectetur</b></h2></p>
+					<p class="opaque">
 					    Lorem ipsum, dolor sit amet consectetur adipisicing
 						elit. Suscipit nemo hic quos, ab, dolor aperiam nobis
 						cum est eos error ipsum, voluptate culpa nesciunt
 						delectus iste?
 				</p>
-				<button class="btn btn-inverse btn-lg">Learn More</button>
+				<div class="pt50">
+					<button class="btn btn-inverse btn-lg">Learn More</button>
+				</div>
+				
 				</div>
 
 
@@ -182,16 +171,16 @@
 	<div class="col-lg-12">
 			<div class="centrer">
 					<p class="text-cover">T E A M</p>
-					<p><h3><b>OUR TALENTS</b></h3></p>
-					<p><h6>Lorem ipsum, dolor sit amet consectetur</h6></p>
-					<p><h6>adipisicing elit.</h6></p>
+					<p><h2><b>OUR TALENTS</b></h2></p>
+					<p><h4>Lorem ipsum, dolor sit amet consectetur</h4></p>
+					<p><h4>adipisicing elit.</h4></p>
 				
 			</div>
 		</div>
 	</div>
 
 			<!-- TEAM -->
-		<div class="row">
+		<div class="row pl2">
 
 				<div class="col-lg-3"> <img src="images/legge.png" class="img-responsive"> </div>
 				<div class="col-lg-3"> <img src="images/guerra.png" class="img-responsive"> </div>
@@ -210,12 +199,14 @@
 
 </div>
 
+
 <!-- FOOTER -->
-<div class="container-fluid pt100">
+<br><br>
+<footer>
+	<div class="container-fluid">
 	<div class="row">
 		<div class="col-lg-12">
-			<footer>
-				<div class="pull-left flex">
+				<div class="pull-left flex pt30">
 					<div class="col-lg-2"><img src="images/faceIcon.png" class="img-responsive"></div>
 						<div class="col-lg-2"><img src="images/insta.png" class="img-responsive"></div>
 						<div class="col-lg-2"><img src="images/twitter.png" class="img-responsive"></div>
@@ -226,15 +217,16 @@
 				</div>
 
 				<div class="pull-right">
-					<div class="pl1 text-light text-center">
-							<h4>© Start, 2022. All rights reserved.</h4>
+					<div class="pl1 text-light text-center pt30">
+							<h3>© Start, 2022. All rights reserved.</h3>
 					</div>
 				</div>
-
-			</footer>
-		</div>
+				</div>
 	</div>
 </div>
+
+</footer>
+		
 <!-- FIN FOOTER -->
 
 </body>
